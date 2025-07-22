@@ -11,4 +11,12 @@
 
 3. The app should have data validation based on data type. For example, if a user wants to generate an id field with int data type, then the app should not generate a string on id field.
 
-4.
+### Iteration 2
+
+1. Modularize the code (Object Oriented)
+
+2. Additional config
+   * More properties added to the config - User can opt for sensible names, unique ids etc
+   * Strongly modelled config - (Pydantic)
+
+3. *OPTIONAL FOR THIS ITERATION* Inclusion of data structures(dict, list) as column types 
