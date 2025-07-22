@@ -1,0 +1,24 @@
+{
+  "file_format": "csv",
+  "file_name": "sample_data",
+  "num_records": 100,
+  "columns": {
+    "id": "int",
+    "name": "string",
+    "price": "float",
+    "available": "bool",
+    "created_at": "date"
+  }
+}
+{
+  "file_format": "json",
+  "file_name": "sample_data",
+  "num_records": 100,
+  "columns": {
+    "id": "int",
+    "name": "string",
+    "price": "float",
+    "available": "bool",
+    "created_at": "date"
+  }
+}
