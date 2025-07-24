@@ -1,0 +1,132 @@
+[
+    {
+        "user_id": "89db00ba-c2ba-4ccb-8cc3-d975a09629ea",
+        "full_name": "Cheryl Fisher",
+        "product_name": "easy",
+        "category": "Clothing",
+        "Price": 38653.13,
+        "address": {
+            "building_no": "00754",
+            "street_address": "7804 Hood Village"
+        },
+        "available": true,
+        "created_at": "2020-01-23T00:12:51.700363"
+    },
+    {
+        "user_id": "3a2a570c-7ee7-459b-8577-173b33febcf3",
+        "full_name": "Yolanda Frye",
+        "product_name": "particular",
+        "category": "Electronics",
+        "Price": 77606.49,
+        "address": {
+            "building_no": "9480",
+            "street_address": "99352 Grant Shores"
+        },
+        "available": true,
+        "created_at": "2025-01-18T11:29:14.644007"
+    },
+    {
+        "user_id": "6f80b293-cda2-457a-905e-edf2b0f87498",
+        "full_name": "Kelly Munoz",
+        "product_name": "positive",
+        "category": "Home",
+        "Price": 14049.44,
+        "address": {
+            "building_no": "63761",
+            "street_address": "06748 Michael Summit Apt. 937"
+        },
+        "available": true,
+        "created_at": "2022-11-20T05:49:28.446457"
+    },
+    {
+        "user_id": "1a9f93bc-d920-47e0-887d-9b6ae490a3d6",
+        "full_name": "Samuel Serrano",
+        "product_name": "full",
+        "category": "Home",
+        "Price": 50569.46,
+        "address": {
+            "building_no": "975",
+            "street_address": "649 Mccarthy Unions Apt. 022"
+        },
+        "available": true,
+        "created_at": "2021-11-22T09:50:11.014023"
+    },
+    {
+        "user_id": "c2eda864-8ff1-4665-900e-496db6569626",
+        "full_name": "Jessica Ho",
+        "product_name": "without",
+        "category": "Electronics",
+        "Price": 1402.3,
+        "address": {
+            "building_no": "786",
+            "street_address": "60194 Diane Ferry"
+        },
+        "available": false,
+        "created_at": "2020-01-07T16:16:15.959861"
+    },
+    {
+        "user_id": "b76127a5-0466-4f67-a153-65672d51ec63",
+        "full_name": "Ann Carlson",
+        "product_name": "could",
+        "category": "Clothing",
+        "Price": 82357.4,
+        "address": {
+            "building_no": "750",
+            "street_address": "3493 Cole Cliffs Apt. 526"
+        },
+        "available": false,
+        "created_at": "2024-01-22T21:48:52.733067"
+    },
+    {
+        "user_id": "fef98739-4bbc-437e-8f92-a8ce3c5653c5",
+        "full_name": "Michael White",
+        "product_name": "imagine",
+        "category": "Books",
+        "Price": 60178.61,
+        "address": {
+            "building_no": "201",
+            "street_address": "4084 Martinez Islands"
+        },
+        "available": true,
+        "created_at": "2022-01-30T15:04:49.098857"
+    },
+    {
+        "user_id": "3a04dc03-9b67-47e2-a081-e2290b823fa8",
+        "full_name": "Peter Martinez",
+        "product_name": "old",
+        "category": "Electronics",
+        "Price": 49946.34,
+        "address": {
+            "building_no": "2882",
+            "street_address": "64989 Curtis Pass"
+        },
+        "available": true,
+        "created_at": "2022-07-13T19:13:50.228873"
+    },
+    {
+        "user_id": "f631ac43-dc74-4df3-b306-57afe0be0989",
+        "full_name": "Paige Shaw",
+        "product_name": "majority",
+        "category": "Books",
+        "Price": 24048.33,
+        "address": {
+            "building_no": "809",
+            "street_address": "355 Bryant Street"
+        },
+        "available": false,
+        "created_at": "2022-10-21T03:23:12.472899"
+    },
+    {
+        "user_id": "ce748da0-e883-40de-8327-fa2e88f494e9",
+        "full_name": "Chase Warren",
+        "product_name": "dog",
+        "category": "Electronics",
+        "Price": 85813.38,
+        "address": {
+            "building_no": "421",
+            "street_address": "30239 Travis Underpass"
+        },
+        "available": false,
+        "created_at": "2023-06-22T01:25:53.082377"
+    }
+]

@@ -1,0 +1,11 @@
+user_id,full_name,product_name,category,Price,address,available,created_at
+6a4e3fb2-068f-4fdb-97cd-c7cda66d8ff0,Theresa Cooper,beautiful,Electronics,53320.97,"{'building_no': '9271', 'street_address': '73577 Anne Views'}",False,2021-08-04T10:36:51.524223
+7da61b69-eb83-44aa-b3ea-3df135137dcd,Cynthia Wells,condition,Books,62655.38,"{'building_no': '437', 'street_address': '5769 Park Alley Apt. 421'}",False,2024-09-10T08:00:24.633121
+c2662a45-7455-44bf-a104-4d442b8d604a,William Gates,night,Clothing,1877.61,"{'building_no': '7307', 'street_address': '281 Tricia River'}",False,2023-11-26T04:53:39.078680
+2130b05b-74e2-4de0-bf41-31be2f601a61,Beverly Arroyo,we,Books,48115.14,"{'building_no': '52337', 'street_address': '590 Huynh Summit'}",True,2024-05-04T02:15:47.732734
+922cda15-70e8-471b-b7c3-f8d94ec8a4ac,Tracy Mathews,sort,Clothing,36022.91,"{'building_no': '97869', 'street_address': '7407 Andrew Rapid Suite 639'}",False,2023-07-24T11:30:30.429700
+877748c0-822d-4030-a15e-474268b6d39f,Tina Harris,artist,Home,20694.88,"{'building_no': '09907', 'street_address': '03601 Thomas Field Suite 462'}",True,2021-04-10T02:02:35.880244
+7873e226-71cd-46d8-82f7-13b17b9264a2,Andrew Hodge,capital,Home,14728.67,"{'building_no': '30438', 'street_address': '1812 Johnson Prairie'}",False,2022-12-16T16:02:11.464202
+f7d31e63-f877-47d8-96ae-7b90846b1cde,Danielle Hall MD,order,Electronics,73578.94,"{'building_no': '06976', 'street_address': '82615 Jeffery Track Suite 322'}",False,2022-05-03T15:15:52.628949
+cedabaa2-e466-470e-b0c3-f22fce2ce2ff,Kathleen Davidson,think,Electronics,77462.43,"{'building_no': '88776', 'street_address': '5248 James Court'}",False,2020-03-13T22:30:23.316349
+f33d3e8b-160a-440c-846f-a3dcec2070d7,Randy Ford,hot,Home,86573.76,"{'building_no': '07630', 'street_address': '3915 Ball Roads'}",True,2022-01-01T14:54:40.252755
