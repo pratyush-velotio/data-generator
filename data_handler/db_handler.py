@@ -41,24 +41,23 @@ class DBHandler:
         self.conn.commit()
 
     def insert_generated_data(self, records: List[Dict]):
-        print(self.conn.execute("SELECT * FROM generated_data").fetchall())
-        # for record in records:
-        #     self.conn.execute("""
-        #         INSERT OR IGNORE INTO generated_data (
-        #             user_id, full_name, product_name, category,
-        #             Price, address, available, created_at
-        #         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        #     """, (
-        #         record.get("user_id"),
-        #         record.get("full_name"),
-        #         record.get("product_name"),
-        #         record.get("category"),
-        #         record.get("Price"),
-        #         str(record.get("address")),
-        #         record.get("available"),
-        #         record.get("created_at")
-        #     ))
-        # self.conn.commit()
+        for record in records:
+            self.conn.execute("""
+                INSERT OR IGNORE INTO generated_data (
+                    user_id, full_name, product_name, category,
+                    Price, address, available, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                record.get("user_id"),
+                record.get("full_name"),
+                record.get("product_name"),
+                record.get("category"),
+                record.get("Price"),
+                str(record.get("address")),
+                record.get("available"),
+                record.get("created_at")
+            ))
+        self.conn.commit()
         
     def get_metadata(self, file_id):
         cursor = self.conn.execute(
