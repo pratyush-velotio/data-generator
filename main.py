@@ -1,30 +1,48 @@
-# main.py
 import json
-from utils import ConfigHandler, DataGenerator, FileHandlerFactory
-
+import uuid
+import datetime
+from configuration.config_validation import ConfigModel
+from file_utils.file_handler import FileHandlerFactory
+from file_utils.utils import DataGenerator
+from data_handler.db_handler import DBHandler
 
 def main():
-    # Load configuration
-    with open("config.json") as f:
-        config = json.load(f)
+    db = DBHandler()
+    print(db.get_metadata("ce5c0f8d-0101-45a5-a342-93d537d4aa0a"))
 
-    config_handler = ConfigHandler(config)
-    fields = config_handler.get_fields()
-    num_records = config_handler.get_num_records()
-    output_file = config_handler.get_output_file()
-    file_type = config_handler.get_file_type()
-    delimiter = config_handler.get_delimiter()
+    try:
+        with open("configuration/config.json") as f:
+            config_dict = json.load(f)
+    except FileNotFoundError:
+        print(f"config.json not found in the current directory.")
+        return
+
+    try:
+        # Validate using Pydantic
+        config = ConfigModel(**config_dict)
+    except Exception as e:
+        print(f"Config validation failed: {e}")
+        return
 
     # Generate data
-    generator = DataGenerator(fields)
-    data = generator.generate_data(num_records)
+    output_detail = config.output_details[0]
+    handler = FileHandlerFactory.get_handler(output_detail.file_format, output_detail.delimiter)
+    generator = DataGenerator([field.model_dump() for field in config.fields])
+    data = generator.generate_data(config.num_records) 
 
-    # Write to file
-    file_handler = FileHandlerFactory.get_file_handler(file_type, delimiter)
-    file_handler.write(data, output_file)
-    print(f"Data written to {output_file} in {file_type} format.")
-    print(f"Generated {num_records} records")
+    # Save file
+    file_id = str(uuid.uuid4())
+    filename = output_detail.file_path
+    handler.write(data, filename)
 
+    db.insert_metadata(file_id, filename, output_detail.file_format, generated_at=datetime.datetime.now())
+    print(f"Metadata is stored in table")
+    db.insert_generated_data(data)
+    print(f"Data is stored in table")
+    # print(f"File ID: {file_id}")
+    # print(f"File generated: {filename}")
+    
+    
 
 if __name__ == "__main__":
     main()

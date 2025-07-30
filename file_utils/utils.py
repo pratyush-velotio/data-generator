@@ -1,6 +1,3 @@
-import csv
-import json
-from abc import ABC, abstractmethod
 from faker import Faker
 
 fake = Faker()
@@ -14,16 +11,16 @@ class ConfigHandler:
         return self.config["fields"]
 
     def get_num_records(self):
-        return self.config.get("num_records", 10)
+        return self.config.get("num_records")
 
     def get_output_file(self):
-        return self.config.get("output_file", "output/data.json")
-
+        return self.config.get("output_file")
+    
     def get_file_type(self):
-        return self.config.get("file_type", "json")
+        return self.config.get("file_type")
 
     def get_delimiter(self):
-        return self.config.get("delimiter", ",")
+        return self.config.get("delimiter")
 
 
 class DataGenerator:
@@ -65,36 +62,7 @@ class DataGenerator:
         return records
 
 
-class FileHandler(ABC):
-    def __init__(self, delimiter=','):
-        self.delimiter = delimiter
-
-    @abstractmethod
-    def write(self, data, output_file):
-        pass
 
 
-class CSVFileHandler(FileHandler):
-    def write(self, data, output_file):
-        with open(output_file, mode='w', newline='') as file:
-            writer = csv.DictWriter(file, fieldnames=data[0].keys(), delimiter=self.delimiter)
-            writer.writeheader()
-            for row in data:
-                writer.writerow(row)
 
 
-class JSONFileHandler(FileHandler):
-    def write(self, data, output_file):
-        with open(output_file, 'w') as f:
-            json.dump(data, f, indent=4)
-
-
-class FileHandlerFactory:
-    @staticmethod
-    def get_file_handler(file_type, delimiter=','):
-        if file_type == "csv":
-            return CSVFileHandler(delimiter)
-        elif file_type == "json":
-            return JSONFileHandler()
-        else:
-            raise ValueError(f"Unsupported file type: {file_type}")
