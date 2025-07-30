@@ -1,5 +1,6 @@
 import sqlite3
 from typing import List, Dict
+from beautifultable import BeautifulTable
 
 class DBHandler:
     def __init__(self, db_path: str = "data_handler/file_metadata.db"):
@@ -59,16 +60,38 @@ class DBHandler:
             ))
         self.conn.commit()
         
-    def get_metadata(self, file_id):
+    def get_metadata(self):
         cursor = self.conn.execute(
-            "SELECT * FROM metadata WHERE file_id = ?",
-            (file_id,))
+            "SELECT * FROM metadata ")
         return cursor.fetchone()
+    
+    def print_metadata(self):
+        data = self.get_metadata()
+        table = BeautifulTable()
+        table.columns.header = ["File ID", "File Type", "File Path", "Generated At"]
+        if data:
+            table.rows.append(data)
+        else:
+            table.rows.append(["No metadata found"])
+        
+        print(table)
     
     def get_tabledata(self):
         cursor = self.conn.execute(
             "SELECT * FROM generated_data")
         return cursor.fetchall()
+    
+    def print_generated_data(db_handler):
+        data = db_handler.get_tabledata()
+        table = BeautifulTable()
+        table.columns.header = [
+            "user_id", "full_name", "product_name", "category",
+            "Price", "address", "available", "created_at"
+        ]
+        for row in data:
+            table.rows.append(row)
+        
+        print(table)
         
     
 

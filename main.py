@@ -8,7 +8,7 @@ from data_handler.db_handler import DBHandler
 
 def main():
     db = DBHandler()
-    print(db.get_metadata("ce5c0f8d-0101-45a5-a342-93d537d4aa0a"))
+    # print(db.get_metadata("ce5c0f8d-0101-45a5-a342-93d537d4aa0a"))
 
     try:
         with open("configuration/config.json") as f:
@@ -39,8 +39,8 @@ def main():
     print(f"Metadata is stored in table")
     db.insert_generated_data(data)
     print(f"Data is stored in table")
-    # print(f"File ID: {file_id}")
-    # print(f"File generated: {filename}")
+    print(f"File ID: {file_id}")
+    print(f"File generated: {filename}")
     
     
 
