@@ -1,0 +1,10 @@
+from data_handler.db_handler import DBHandler
+from prettytable import PrettyTable
+
+db = DBHandler()
+print(db.print_metadata())
+# print(db.print_generated_data())
+
+
+
+

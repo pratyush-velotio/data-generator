@@ -1,0 +1,101 @@
+user_id,full_name,product_name,category,Price,address,available,created_at
+9d0f96ce-1208-4dc7-b71f-91cbca562fcd,David Hines,mouth,Clothing,24309.7,"{'building_no': '5856', 'street_address': '0940 Douglas Hill Suite 793'}",False,2025-05-19T12:15:13.022920
+63f88536-722a-4b1f-850a-aa4ec53b5076,Debbie Simpson,practice,Books,63553.3,"{'building_no': '832', 'street_address': '2277 Emily Points'}",True,2025-02-02T10:29:50.095641
+a72674b8-d07d-4869-bef3-44368f3378ec,Bradley Keith,soldier,Home,46807.57,"{'building_no': '9425', 'street_address': '9118 White Parks'}",True,2020-03-04T14:33:43.047706
+ed51df85-d12b-4da4-8755-8fb3ab041788,Kyle Fry,turn,Electronics,34136.85,"{'building_no': '24380', 'street_address': '4216 Troy Drive Suite 663'}",True,2020-10-12T13:50:26.302282
+d0792ff7-1843-4d0f-94a4-3e51d7a2ff4e,Samantha Freeman,east,Books,6886.82,"{'building_no': '9690', 'street_address': '538 Reid Trace Apt. 352'}",True,2022-11-04T14:52:09.820200
+f84b24af-b292-49cf-af7d-f0946b8a04c2,Christopher Sanchez,candidate,Books,40145.74,"{'building_no': '175', 'street_address': '5712 Taylor Ford'}",True,2022-12-10T22:10:49.939764
+5150e522-0629-435d-8e47-aff5247f86d9,Brittany Davis,responsibility,Clothing,98335.92,"{'building_no': '99657', 'street_address': '106 Watson Centers Suite 502'}",False,2021-02-04T08:12:48.556465
+adfa0efb-7c48-42ee-9dea-a8c20c852264,Tyler Bennett,tax,Books,42968.19,"{'building_no': '8832', 'street_address': '607 Anthony Wall'}",False,2024-03-15T17:07:03.763177
+2bfefb1d-3928-4250-a45f-a2b6386a839c,John Lowe,worker,Home,85021.7,"{'building_no': '4811', 'street_address': '392 Jones Fords'}",False,2022-07-04T13:44:35.536323
+9df80d58-469d-4383-b4ce-d9705f4b43ba,Caroline Clark,trade,Books,228.41,"{'building_no': '81902', 'street_address': '699 Robinson Inlet'}",True,2024-03-14T23:56:38.889718
+68b1f43e-ff27-47ff-8cfa-88df10fe64a1,Amy James,maybe,Electronics,36704.47,"{'building_no': '80961', 'street_address': '545 Stone Flat Apt. 404'}",False,2021-12-20T08:12:02.557679
+dff57ab6-7833-4446-bfc4-ef3329ed6530,Mark Wilson,trouble,Electronics,10136.47,"{'building_no': '950', 'street_address': '315 Boyd Underpass'}",True,2023-02-01T04:57:37.181169
+80dd98af-032e-46c9-a195-e1c683eb2f4e,Michelle Decker,however,Electronics,78644.33,"{'building_no': '785', 'street_address': '0686 Arnold Camp Suite 703'}",False,2024-01-26T12:26:42.901200
+05abaa93-e4e1-4e67-b584-d9c7c29252cc,Isaiah Norris,management,Clothing,17467.33,"{'building_no': '687', 'street_address': '5296 Courtney Ranch Suite 159'}",True,2025-06-11T10:02:17.585766
+4e716403-3390-471e-9de4-a16eefc73669,Diane Fletcher,impact,Electronics,7150.69,"{'building_no': '4326', 'street_address': '86272 Flores Prairie Suite 984'}",True,2025-01-12T01:13:35.787600
+8f2d0be4-1c89-4fa9-926d-b118bf3dfb0e,Donald Johnson,affect,Electronics,81970.99,"{'building_no': '1324', 'street_address': '927 Gina Motorway'}",True,2024-03-27T23:37:23.278792
+ac7b0a56-a6f4-49b4-8e96-b42e4e5c2405,Brenda Ross,nice,Electronics,65369.34,"{'building_no': '99234', 'street_address': '192 Davis Ferry Apt. 382'}",True,2020-04-17T08:40:40.352781
+0c6fe1a5-0c9d-4086-a084-e023d7a37575,Brooke Brown,leg,Books,79473.63,"{'building_no': '75064', 'street_address': '126 Ryan Ramp'}",False,2023-11-04T06:57:14.701785
+61777e27-db1f-4766-bf70-61150547f36d,David Lang,suffer,Books,96256.91,"{'building_no': '3367', 'street_address': '805 Black Meadow'}",False,2023-05-09T21:16:34.244137
+2047ba45-b3b2-4032-961b-b898bc1708a0,Alexis Nolan,test,Home,82959.49,"{'building_no': '34568', 'street_address': '6757 Gonzalez Light'}",False,2022-01-15T22:26:36.036226
+fc7afbfc-5906-42a1-bcc2-82c3865af001,Cynthia Mendez,wrong,Books,40834.55,"{'building_no': '29317', 'street_address': '8116 Rebecca Ports Suite 555'}",False,2024-02-08T06:04:38.075007
+289c16bd-095e-4c47-99cd-3546bbceee83,Mr. William Moore,ready,Clothing,59192.3,"{'building_no': '334', 'street_address': '721 Zimmerman Brook Suite 729'}",True,2023-12-31T14:06:18.902374
+4d6bd3ee-e9d8-45cf-8a3c-318caf4447ff,Jerome Sutton,mission,Home,85904.37,"{'building_no': '73741', 'street_address': '672 Williams Prairie Suite 914'}",True,2022-01-28T00:48:50.457365
+7ee7645d-1004-4ac4-a7d3-494f10baf080,Stephanie Lopez,such,Home,60172.44,"{'building_no': '0672', 'street_address': '0635 Mark Stream'}",False,2023-03-12T10:37:45.835013
+f87b129c-3ae9-44f0-a4d2-8f31e5f31431,Elizabeth May,foreign,Electronics,45657.31,"{'building_no': '065', 'street_address': '458 Brandon Walk Suite 545'}",True,2020-06-06T16:43:03.045685
+cfb5ff45-8a13-4db1-a908-08e61cf5de6d,Teresa Robertson,anything,Books,94189.18,"{'building_no': '2069', 'street_address': '99030 Smith Forks'}",False,2023-03-20T17:40:51.899779
+d99eb2a7-f2f2-430f-8383-2633ea312e5d,Melinda Ponce,population,Home,83647.11,"{'building_no': '2437', 'street_address': '5704 Ross Mews Suite 787'}",False,2021-05-28T15:46:40.331996
+a679d460-a749-4730-8afc-f5858d25d733,Jessica Gibbs,subject,Clothing,15314.72,"{'building_no': '2348', 'street_address': '0039 Russell Underpass'}",False,2020-12-04T13:08:21.505952
+71b5e04c-4c64-4ea3-8a7a-c2d3cd68835c,Aaron Rose MD,citizen,Home,33844.34,"{'building_no': '17625', 'street_address': '2578 Garcia Radial Apt. 109'}",False,2023-07-16T16:37:10.699721
+f241883c-15f8-4d07-bfbc-c49c6423882c,Sean Wright,culture,Clothing,44231.51,"{'building_no': '0984', 'street_address': '737 Jeffrey Drive Apt. 482'}",True,2024-08-01T08:28:50.593121
+c0a9bb59-35a8-4b1c-80a3-9254b410e267,Shelby Gutierrez DVM,alone,Books,94324.53,"{'building_no': '8928', 'street_address': '16851 Lisa Island Apt. 132'}",False,2021-09-12T11:22:54.637871
+e0e96f77-4cae-490d-8ee7-cf87f7b07e05,Curtis Best,shoulder,Clothing,11281.4,"{'building_no': '579', 'street_address': '422 Campbell Glen Apt. 902'}",True,2020-08-11T09:37:45.171929
+c389e06c-b402-4ffa-824f-137b3e7b73b0,Sheila Crawford,get,Books,78718.31,"{'building_no': '38075', 'street_address': '0262 Lee Trail Apt. 234'}",True,2022-10-03T08:31:39.658562
+69d606c7-ac69-434a-8456-461d776a46fd,Erica Rivera,talk,Clothing,72071.0,"{'building_no': '46412', 'street_address': '80424 Wallace Camp Apt. 846'}",True,2022-02-15T07:06:27.604206
+2cece2a0-af25-4b2f-86c1-185e1d48435d,David Liu,item,Books,10148.48,"{'building_no': '6130', 'street_address': '79296 Richard Divide'}",False,2024-02-29T16:35:47.782797
+f4acbf3a-b231-4a6b-bada-67ab92e693a5,Eric Berry,agreement,Electronics,22155.69,"{'building_no': '984', 'street_address': '29333 Brandy Vista'}",True,2024-08-05T20:32:56.910836
+2f752c75-0592-440d-b01f-3001e958a95e,Mr. Leonard Whitney,sing,Books,28104.97,"{'building_no': '12857', 'street_address': '2426 Brittany Point'}",True,2021-04-19T11:13:55.154004
+a45adbba-517d-4e69-affd-c38459ae9dd6,William Zuniga,certainly,Clothing,94157.33,"{'building_no': '495', 'street_address': '190 Smith Causeway Apt. 949'}",False,2020-05-11T09:30:20.443981
+4b7074a3-6696-4b7e-923a-727cd6bfc568,Joshua Stokes,everyone,Clothing,27944.7,"{'building_no': '181', 'street_address': '20814 Foster Road Suite 527'}",False,2020-03-15T18:35:57.006726
+e5e6c876-59ad-4916-949c-75570c7b319c,Matthew Hess,ten,Clothing,49715.58,"{'building_no': '921', 'street_address': '6456 Anderson Tunnel'}",False,2025-04-27T13:06:10.380976
+80f6e036-9203-4571-99dd-e66eacf5c58f,Michael Mcclure,American,Clothing,5913.51,"{'building_no': '6343', 'street_address': '497 Gamble Glen'}",False,2022-05-05T11:30:33.842206
+07b9d3c6-ac4c-44ff-be8e-d8751f173c2b,Jason Alexander,budget,Home,46366.25,"{'building_no': '097', 'street_address': '970 Lawson Orchard Apt. 583'}",False,2023-04-28T08:07:55.516927
+e03a7ac9-6595-403c-9257-0d255e4d4ff6,Maria Horton,agree,Home,73742.4,"{'building_no': '1086', 'street_address': '6263 Cody Hollow Apt. 089'}",True,2024-04-17T09:43:38.612064
+d7c26200-cfd1-4906-a756-0c33f004205b,Christine Oneal,later,Home,28343.78,"{'building_no': '0346', 'street_address': '2578 Kathryn Knoll'}",True,2023-10-17T04:15:28.992509
+2076926c-c1da-48e7-8974-9d84b803169d,Kerri Clark,type,Electronics,30729.56,"{'building_no': '40407', 'street_address': '54212 Christensen Extension'}",True,2021-03-19T17:32:21.978060
+facbb8f9-0867-4b9a-be51-84c676d9d483,Kimberly Glover,what,Electronics,30201.7,"{'building_no': '669', 'street_address': '75815 Fletcher Drive'}",False,2024-05-31T11:35:52.722830
+f0c2e8db-7eef-4a27-997a-73bd041d03b2,Antonio Watkins,there,Books,65834.22,"{'building_no': '7839', 'street_address': '078 Wendy Lane'}",True,2021-08-05T18:08:19.481542
+9fc1e66d-8a1d-48d6-ad8f-ee59efce6641,Rhonda Williams,check,Electronics,95755.69,"{'building_no': '64713', 'street_address': '60983 Sarah Junction'}",True,2020-11-15T16:11:56.819891
+d57c2f5f-db52-44fa-aef7-854976260a44,Vickie Johnson,personal,Books,70364.49,"{'building_no': '40847', 'street_address': '19701 Danielle Forge Apt. 118'}",True,2023-02-03T15:13:12.193982
+09e5c25e-1113-425e-a17d-e73c486ba664,John Carlson,center,Clothing,43831.9,"{'building_no': '0003', 'street_address': '16902 Laurie Valleys'}",True,2021-08-17T19:18:54.547158
+db9b8df5-389b-48f4-aed5-004156e70f29,Sherry Anderson,need,Home,7585.22,"{'building_no': '637', 'street_address': '7643 Nolan Point Suite 272'}",True,2024-10-14T12:10:57.932375
+df207f83-9644-44ba-bf35-b4ce78ef76f7,Jacqueline Jones,wonder,Electronics,43463.22,"{'building_no': '78971', 'street_address': '00986 Johnson Knolls Apt. 746'}",False,2023-11-19T17:26:43.080014
+211e941e-fd41-4f5f-b207-548f9ac0c5a3,Tyler Tyler,thousand,Electronics,56775.9,"{'building_no': '616', 'street_address': '284 Brandy Creek'}",False,2021-04-30T20:53:29.180376
+f8923b4d-5fa9-44fa-bd12-fd7e00433378,John Owens,question,Books,44655.63,"{'building_no': '34823', 'street_address': '9958 Taylor Parkway'}",False,2023-05-11T06:41:51.381262
+89302ebb-6bbf-422d-abb2-7ab8f7abadbe,Frederick Carrillo,fight,Home,34764.97,"{'building_no': '0381', 'street_address': '48101 Harold Keys Apt. 528'}",True,2023-08-05T12:18:40.368855
+e59de8a5-9caa-4078-b598-dea8b1c2523d,Randall Black,least,Books,19363.48,"{'building_no': '673', 'street_address': '179 Zuniga Mews Apt. 534'}",True,2025-06-19T07:23:41.338781
+a7a65c52-acf7-450a-b6bc-c7c2bec26cc2,Jorge Manning,base,Home,39947.23,"{'building_no': '230', 'street_address': '16934 Albert Club Apt. 780'}",False,2023-03-07T17:33:21.100296
+2016f6c7-0f05-481e-9eea-74b8d65d7a45,James Barnes,why,Home,73166.31,"{'building_no': '246', 'street_address': '711 Margaret Rapid'}",True,2021-06-07T21:52:07.597436
+2fa1f84c-5769-4234-9e89-9e1494770491,Michelle Mcmahon MD,anything,Home,25088.6,"{'building_no': '8810', 'street_address': '5456 Melanie Pass Apt. 305'}",True,2023-04-05T01:44:14.529515
+cc68e134-4120-4d26-bbfd-3c290823e5ae,Jacob Burke,life,Books,99870.49,"{'building_no': '498', 'street_address': '934 Samuel Views'}",True,2024-09-11T10:36:46.574527
+3862cbbe-01aa-4d89-86c3-ae9f82effeca,Andrea Moore,player,Books,92470.66,"{'building_no': '5089', 'street_address': '616 Robert Roads'}",False,2025-02-11T19:18:42.840817
+da6f3470-61df-470e-8fb2-944e90a7a267,Jessica Lewis,will,Electronics,80266.59,"{'building_no': '197', 'street_address': '055 Julie Squares'}",False,2023-06-10T07:01:22.419563
+a23c8a18-cc2a-424d-a04e-47e0e12ff728,Andrew Nolan,none,Books,62342.47,"{'building_no': '6066', 'street_address': '006 Olson Rapids'}",False,2025-04-06T00:57:10.801035
+76d36ee2-a0ec-40e4-8920-957bc82c9be4,Glenn Combs,eye,Electronics,47528.44,"{'building_no': '873', 'street_address': '358 Frank Walk Apt. 248'}",True,2024-07-25T04:18:24.492357
+89661bc6-587b-4ba6-9975-48b2202bca68,Carla Ramirez,live,Home,47551.3,"{'building_no': '35138', 'street_address': '69935 Christopher Vista Apt. 703'}",False,2024-04-06T02:10:53.662374
+2fbc5842-c3cd-4d3f-a0f8-29f7c502e004,Michael Reyes,it,Electronics,64332.6,"{'building_no': '41356', 'street_address': '2456 Andrew Mill Apt. 459'}",False,2023-05-04T18:05:10.174124
+78bf0682-e666-421f-bf60-4f79b059a837,Sharon King,certainly,Home,50726.36,"{'building_no': '0467', 'street_address': '069 Jennifer Gateway'}",True,2021-04-04T15:35:46.844456
+d594e624-6d0c-462e-b5fd-025a3482f4ec,Nicole Peterson,price,Books,34959.17,"{'building_no': '1294', 'street_address': '34188 Scott Parkways Apt. 844'}",True,2022-08-29T23:31:39.687987
+da459a21-92f3-4ebb-9bc0-26cd35a26e8b,Mikayla Jones,discover,Clothing,53175.95,"{'building_no': '7968', 'street_address': '70879 Matthew Divide Apt. 871'}",False,2024-07-15T14:17:44.937532
+b0aa02ff-1e9e-4b5e-ba12-b8ba7580c873,Christine Hinton,easy,Clothing,30627.24,"{'building_no': '098', 'street_address': '6416 Hardy Shores Apt. 745'}",True,2022-10-07T00:21:59.207802
+802ec616-1dd7-40a1-a121-b69e65d98b5b,Joseph Ellison,particularly,Home,74468.78,"{'building_no': '2652', 'street_address': '86251 Lee Expressway'}",False,2021-08-11T22:09:48.708338
+85d09df2-c73f-4163-a5f5-b5a8e58d8d86,Mark Lamb,board,Electronics,86006.46,"{'building_no': '124', 'street_address': '2925 Odonnell Stream Apt. 442'}",False,2022-08-28T18:08:42.813657
+67a2b2fb-d441-4acf-8f65-8d43b2397765,Teresa Oliver,poor,Clothing,38985.95,"{'building_no': '634', 'street_address': '4584 Brewer Plains Suite 922'}",False,2023-12-18T13:58:33.085463
+24863d88-0ce0-48e0-b131-5d3a842952c0,Zachary Miller,I,Electronics,31592.59,"{'building_no': '31012', 'street_address': '604 Kelsey Pass'}",True,2020-10-13T09:08:20.282178
+7c3c5fa7-7354-4d99-a499-01e138b0e95d,Dylan Washington,thought,Clothing,45178.93,"{'building_no': '753', 'street_address': '32883 Johnston Walk Apt. 609'}",True,2022-07-13T04:42:45.370941
+9e17d05e-892c-4d70-b2aa-46df70a02a14,Javier Kim,but,Books,71576.6,"{'building_no': '0995', 'street_address': '17355 Smith Fields'}",False,2024-12-09T22:42:47.631201
+80642696-9632-4255-ab3e-097633b8e2b5,Julie Young,build,Clothing,19019.0,"{'building_no': '129', 'street_address': '469 Earl Mountains'}",False,2021-10-16T19:34:30.536680
+c0ff88a4-cdb4-493d-a610-3258a03e5ea5,Teresa Tucker,politics,Home,56607.9,"{'building_no': '335', 'street_address': '29469 Shannon Branch'}",False,2024-06-27T22:29:33.404181
+1e0d3470-da7c-4653-925b-9145be398b8a,Jon White,issue,Books,60358.43,"{'building_no': '663', 'street_address': '09057 Jonathan Viaduct Suite 992'}",False,2024-09-18T15:22:10.301751
+5158797f-fef4-405f-8b73-8cc6141e4620,Tony Douglas,pick,Clothing,3001.76,"{'building_no': '2941', 'street_address': '8300 Hernandez Shoals Suite 513'}",False,2025-03-20T20:05:08.413655
+4eced0c2-7ae2-4243-b8c7-389a229a3353,Joe Mendoza,enough,Clothing,53139.39,"{'building_no': '826', 'street_address': '8635 Brown Trace'}",True,2021-04-17T10:54:37.797542
+898e17c1-3d88-4fe2-8ddf-01ceb517e5f1,Melanie Hernandez,executive,Clothing,11597.13,"{'building_no': '910', 'street_address': '5712 Powell Harbor'}",True,2021-10-25T13:01:42.009661
+1ba70f84-c6ad-4039-b365-d472ba0c5e03,Allen Barton,important,Clothing,57096.83,"{'building_no': '144', 'street_address': '311 Owens Avenue Apt. 681'}",True,2022-10-15T15:40:47.959862
+3aafd3ff-e9f2-46ff-a29e-8f1cd7d5cf13,Judith White,current,Home,26625.82,"{'building_no': '507', 'street_address': '271 James Prairie Suite 113'}",True,2020-05-01T16:04:32.066019
+a818291a-5bbe-4470-aca2-113848343471,Richard Oconnor,month,Books,15559.94,"{'building_no': '041', 'street_address': '821 West Grove'}",True,2020-05-25T09:14:05.158263
+eba0c26e-e35d-4e04-a632-9cde335516f2,Jeffrey Herrera,record,Clothing,8677.17,"{'building_no': '2562', 'street_address': '657 Lewis Bypass Suite 751'}",False,2021-06-05T01:25:34.417800
+eced15d4-29ae-492a-993c-d19672719b0a,Wanda Mason,some,Clothing,16379.73,"{'building_no': '65481', 'street_address': '3290 Steven Light'}",True,2020-01-01T08:48:48.902491
+4a2817d8-18a7-47ca-9f95-cf8ec5c86233,Courtney Bishop,increase,Home,9343.35,"{'building_no': '2060', 'street_address': '293 Hunt Lake'}",True,2020-09-05T13:05:41.240880
+45c6950e-1101-4bfd-b218-9366405ff20b,Amber Clark,dinner,Clothing,69583.38,"{'building_no': '15022', 'street_address': '60859 Donaldson Forges Apt. 522'}",False,2022-09-06T12:23:37.998239
+11825164-5985-4b62-9578-307d21bb63c3,Mark Holland,let,Home,40857.77,"{'building_no': '1784', 'street_address': '435 Ingram Plaza Suite 280'}",True,2023-09-25T08:13:20.838937
+57099663-b320-4a74-bfd2-a07570aef162,Kristin Barron,around,Home,95989.59,"{'building_no': '6312', 'street_address': '36024 Barker Well Apt. 424'}",False,2024-11-24T02:26:22.115571
+cada5879-6d4a-4464-9c85-d05504838041,Ms. Ashley Doyle,really,Books,12382.1,"{'building_no': '340', 'street_address': '593 Stephanie Lock'}",True,2022-03-08T13:30:09.613999
+d4818b7b-caf4-4dfd-9d11-08bc7fef38c1,Donald Ruiz,phone,Electronics,28288.98,"{'building_no': '05253', 'street_address': '08041 Keith Mission Suite 839'}",False,2023-06-17T06:15:19.261752
+5846ee94-4e0c-4acd-9ba9-59d4e2a35a1e,Ray Leonard,wall,Clothing,68663.33,"{'building_no': '1200', 'street_address': '014 Shawn Parks'}",True,2021-11-28T04:50:00.424093
+7accc0f4-3be7-4a1c-ac3e-12b6b007bdd8,Lydia Newman,road,Clothing,1818.1,"{'building_no': '6081', 'street_address': '7817 Thompson Mall Suite 696'}",True,2023-03-12T04:33:31.157542
+bed544e8-2f9a-408b-9675-620c41e6a44c,Joel Brown,case,Books,93452.12,"{'building_no': '4975', 'street_address': '6939 Albert Shores'}",True,2022-05-21T12:13:49.662161
+45e1b841-92f0-4b0f-9506-94697530e116,Daniel Gonzalez,store,Clothing,35807.8,"{'building_no': '0264', 'street_address': '883 Leon Port Suite 520'}",False,2025-01-02T09:08:37.112444
+86146ba8-bbb9-40dd-8705-0130baf7b7e4,Allen Wright,face,Home,69454.43,"{'building_no': '937', 'street_address': '5897 Trevor Ridge Apt. 038'}",False,2020-07-23T11:02:38.116398
+020dfe83-a0a9-47ed-a43c-4fbf6c085ded,Aaron Smith,civil,Books,67358.92,"{'building_no': '635', 'street_address': '363 Scott Drive'}",False,2024-10-26T19:17:53.170675
+263faa41-a8a6-48a2-96b0-7b5f4e3ca383,Krista Lara,design,Electronics,58270.31,"{'building_no': '441', 'street_address': '80914 Smith Fort Apt. 046'}",True,2022-12-22T04:35:29.816339

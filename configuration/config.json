@@ -1,0 +1,62 @@
+{
+  "num_records": 10,
+  "fields": [
+    {
+      "field_name": "user_id",
+      "field_type": "int",
+      "field_properties": {
+        "unique": true
+      }
+    },
+    {
+      "field_name": "full_name",
+      "field_type": "string",
+      "field_properties": {
+        "is_camel_case": true
+      }
+    },
+    {
+      "field_name": "product_name",
+      "field_type": "string"
+    },
+    {
+      "field_name": "category",
+      "field_type": "List",
+      "field_properties": {
+        "choices": ["Electronics", "Clothing", "Home", "Books", "Toys"]
+      }
+    },
+    {
+      "field_name": "Price",
+      "field_type": "float"
+    },
+    {
+      "field_name": "address",
+      "field_type": "dict",
+      "field_keys": ["building_no", "street_address"],
+      "field_properties": {
+        "unique": true
+      }
+    },
+    {
+      "field_name": "available",
+      "field_type": "bool",
+      "field_properties": {
+        "default_value": true
+      }
+    },
+    {
+      "field_name": "created_at",
+      "field_type": "datetime",
+      "field_properties": {
+        "format": "%Y-%m-%d %H:%M:%S"
+      }
+    }
+  ],
+  "output_details": [
+    {
+      "file_format": "json",
+      "file_path": "output/data.json"
+    }
+  ]
+}
